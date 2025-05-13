@@ -56,21 +56,21 @@ The output for each rover should be its final co-ordinates and heading.
 
 # Build And Test The roject
  To Build the project and generate the jar "rover.jar", you need to execute this command :
-    ```bash
+    ```
     mvn clean package
     ```
 
 To launch the tests, you need to execute this command :
-    ```bash
+    ```
     mvn test
     ```
 
 To run the program, you need to execute this command :
-    ```bash
+    ```
    java -jar rover.jar input.txt
     ```
 
 To run the program And enabling the logs at the same time, you need to execute this command :
-    ```bash
+    ```
    java -jar rover.jar input.txt -l
     ```
