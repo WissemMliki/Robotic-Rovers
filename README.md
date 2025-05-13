@@ -54,7 +54,7 @@ The output for each rover should be its final co-ordinates and heading.
  * Unit tests for the Robotic Rover application.
  * Verifies correct rover behavior, exception handling, and edge cases using sample input files.
 
-# Build And Test The roject
+# Build And Test The Project
  To Build the project and generate the jar "rover.jar", you need to execute this command :
     ```
     mvn clean package
