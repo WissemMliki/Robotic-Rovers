@@ -10,7 +10,7 @@ The output for each rover should be its final co-ordinates and heading.
 # Project file tree
 ![image](https://github.com/user-attachments/assets/6a13940d-4998-4892-995b-7008d6b3e02e)
 # Class roles
-- Class Rover :
+** Class Rover : **
  * Simulates a robotic rover navigating a plateau on Mars.
  * The rover executes a sequence of commands ('L', 'R', 'M') to turn or move forward.
  * It tracks position (x, y) and direction (N, E, S, W), while checking plateau bounds.
