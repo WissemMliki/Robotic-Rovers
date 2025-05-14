@@ -72,7 +72,7 @@ public class Rover implements Controlable {
         logInitialRoverPosition(plateau, enableLogs);
         for (int i = 0; i < directionInstructions.length(); i++) {
             char instruction = directionInstructions.charAt(i);
-            apply(instruction); // Use apply method here
+            apply(instruction);
             checkIfRoverPositionIsValid(plateau);
             logDirectionOrder(directionInstructions.charAt(i), plateau, enableLogs);
         }
