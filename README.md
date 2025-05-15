@@ -24,8 +24,6 @@ The output for each rover should be its final co-ordinates and heading.
    
 **Interface Controlable** : 
  * Interface defining basic rover movements: turn left, turn right, and move forward.
- * Includes a default apply() method to execute a movement based on a single character command ('L', 'R', 'M').
- * Throws InvalidOrderException for unsupported commands.
    
 **Class RoboticRoverApplication** :
  * Entry point for the Mars Robotic Rover simulation.
