@@ -12,14 +12,4 @@ public interface Controlable {
     public void goToTheLeft();
     public void goToTheRight();
     public void moveForward();
-
-    // Default method to apply actions
-    default void apply(char action) {
-        switch (action) {
-            case 'L' -> goToTheLeft();
-            case 'R' -> goToTheRight();
-            case 'M' -> moveForward();
-            default -> throw new InvalidOrderException(action);
-        }
-    }
 }
